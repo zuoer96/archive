@@ -1,0 +1,833 @@
+# 友情链接
+# Friend's links
+# avatar 可以是相对路径或者绝对路径：https://gohugo.io/favicon-32x32.png  /imgs/links/boy.png
+
+- FLinksTitle: 单链
+  FLinksDesc: 大丈夫处世，当交四海英雄。
+  FLinksList:
+    - name: 比尔盖茨
+      desc: 比尔盖茨的博客
+      avatar: /imgs/links/boy.png
+      link: https://www.gatesnotes.com/
+
+    - name: 知了
+      desc: 朝闻道，夕可眠矣。
+      avatar: /imgs/links/boy.png
+      link: https://zhile.io/
+
+    - name: 张驰原
+      desc: 留下了一个北极星，我把太阳大声叫醒
+      avatar: /imgs/links/boy.png
+      link: https://pluskid.org/
+
+    - name: 张怡
+      desc: 关于我列了100件想做的事这件事
+      avatar: /imgs/links/girl.png
+      link: http://codewithzhangyi.com/
+
+    - name: guqing的博客
+      desc: 我們可以在文字裡，安靜地，淺淺地微笑
+      avatar: /imgs/links/girl.png
+      link: https://guqing.xyz/
+
+    - name: 二兔
+      desc: 能和你一起成长，我荣幸之至
+      avatar: /imgs/links/girl.png
+      link: https://blog.juanertu.com/
+    
+    - name: 一休儿
+      desc: 因为好奇心，想看看黑暗中有什么
+      avatar: /imgs/links/boy.png
+      link: https://io-oi.me/
+
+    - name: 荷戟独彷徨
+      desc: 记得年时沽酒，那人家
+      avatar: /imgs/links/boy.png
+      link: https://guanqr.com/
+
+    - name: Sea
+      desc: 留七分正经，以度生；留三分痴呆，以防死
+      avatar: /imgs/links/boy.png
+      link: https://mrseawave.github.io/blogs/
+
+    - name: 张麦麦的博客
+      desc: 半个程序员，半个宅男，半个虚无主义者。
+      avatar: /imgs/links/boy.png
+      link: https://zhangmaimai.com/
+
+    - name: airbozh的博客
+      desc: 生活原本沉闷，但跑起来就有风
+      avatar: /imgs/links/boy.png
+      link: https://www.airbozh.cn/
+    
+    - name: 苍岚
+      desc: 蓝天依旧，明眸如初
+      avatar: /imgs/links/boy.png
+      link: https://www.zywvvd.com/
+
+    - name: 犀牛的博客
+      desc: 姑苏城外一茅屋，万树梅花月满天
+      avatar: /imgs/links/boy.png
+      link: https://benpaodewoniu.github.io/
+
+    - name: tangly1024
+      desc: 人在淋雨时，比撑伞的人跑得快
+      avatar: /imgs/links/boy.png
+      link: https://tangly1024.com/
+    
+    - name: 兴趣使然的博客
+      desc: 想飞的鸡
+      avatar: /imgs/links/boy.png
+      link: https://xfdj.github.io/
+
+    - name: 凡梦星尘
+      desc: 移植了hugo版本的NexT主题
+      avatar: /imgs/links/boy.png
+      link: https://lisenhui.cn/
+      
+    - name: Guangzheng Li
+      desc: 一个还在重新学习，重塑思想的开发者
+      avatar: /imgs/links/boy.png
+      link: https://guangzhengli.com/
+
+    - name: 吕楪
+      desc: 30岁不结婚会变成魔法师吗
+      avatar: /imgs/links/girl.png
+      link: https://irithys.com/
+    - name: 秋葉杏
+      desc: 就是最近常听到的秋叶大佬orz
+      avatar: /imgs/links/boy.png
+      link: https://anzu.link/
+      
+
+- FLinksTitle: 体系
+  FLinksDesc: 圈地自萌
+  FLinksList:
+    - name: bugstack 虫洞栈
+      desc: 比较完善的java知识体系
+      avatar: /imgs/links/boy.png
+      link: https://bugstack.cn/
+
+    - name: 并发编程
+      desc: 专注并发，让天下没有难学的技术
+      avatar: /imgs/links/boy.png
+      link: https://ifeve.com/
+
+    - name: 凤凰架构
+      desc: 构建可靠的大型分布式系统
+      avatar: /imgs/links/boy.png
+      link: http://icyfenix.cn/
+
+    - name: 解道
+      desc: 道可道，非常道！
+      avatar: /imgs/links/boy.png
+      link: https://www.jdon.com/
+
+    - name: 大白菜博客
+      desc: 架构方面，学的不仅仅是技术，更是梦想！
+      avatar: /imgs/links/boy.png
+      link: https://cmsblogs.cn/
+    
+- FLinksTitle: 互链
+  FLinksDesc: 海内存知己，天涯若比邻。
+  FLinksList:
+    - name: 左耳96
+      desc: 我给青春盖个章，青春问我值几两。
+      avatar: /imgs/links/boy.png
+      link: https://nbchen.com/
+
+- FLinksTitle: 推荐网站
+  FLinksList:
+    - name: OpenAI
+      avatar: /imgs/links/openai.svg
+      link: https://openai.com
+      desc: OpenAI
+    - name: midjourney
+      avatar: /imgs/links/midjourney.svg
+      link: https://www.midjourney.com/app/
+      desc: 强大就完事了
+    - name: SharedChat
+      avatar: /imgs/links/openai.svg
+      link: https://chat-shared.zhile.io/shared.html?v=2
+      desc: 热心大佬，金光YYDS
+
+- FLinksTitle: 个人社交/日常使用
+  FLinksList:
+    - name: Github
+      avatar: /imgs/links/github.svg
+      link: https://github.com/
+      desc: 世界上最大的男性交友俱乐部
+    - name: Gitee
+      avatar: /imgs/links/gitee.svg
+      link: https://gitee.com/
+      desc: 国内最大的男性交友俱乐部
+    - name: B站
+      avatar: /imgs/links/bilibili.svg
+      link: https://www.bilibili.com/
+      desc: 国内最大的学习网站
+    - name: ChatGPT
+      avatar: /imgs/links/nbchen_chatgpt.svg
+      link: https://chat-gpt-next-ncnd4qg50-nbchen.vercel.app/#/new-chat
+      desc: 自己部署，无需登陆的chatGPT
+    - name: 知识星球
+      avatar: /imgs/links/zsxq.svg
+      link: https://wx.zsxq.com/dweb2/index/group/15552545485212
+      desc: 以圈子为知识付费
+
+- FLinksTitle: 个人社交/编程论坛
+  FLinksList:
+    - name: 掘金
+      avatar: /imgs/links/juejin.svg
+      link: https://juejin.cn/
+      desc: 比较优质的程序员论坛
+    - name: CSDN
+      avatar: /imgs/links/csdn.svg
+      link: https://www.csdn.net/
+      desc: 新手入门的福音
+    - name: 博客园
+      avatar: /imgs/links/cnblogs.svg
+      link: https://home.cnblogs.com/
+      desc: 比较老牌的程序员论坛
+    - name: 开源中国
+      avatar: /imgs/links/oschina.svg
+      link: https://www.oschina.net/project
+      desc: 中国的开源论坛
+    - name: Stackoverflow
+      avatar: /imgs/links/stackoverflow.svg
+      link: https://stackoverflow.com/
+      desc: 解决99%的开发BUG
+    - name: 简书
+      avatar: /imgs/links/jianshu.svg
+      link: https://www.jianshu.com/
+      desc: 逐渐变成故事会的技术站
+- FLinksTitle: 个人社交/划水网站
+  FLinksList:
+    - name: V2EX
+      avatar: /imgs/links/v2ex.svg
+      link: https://www.v2ex.com/
+      desc: 比较"程序员"的划水论坛
+    - name: 鱼塘热榜
+      avatar: /imgs/links/yutang.svg
+      link: https://mo.fish/
+      desc: 利用最短的摸鱼时间干最多的事
+    - name: 起点
+      avatar: /imgs/links/qidian.svg
+      link: https://www.qidian.com/
+      desc: 起点中文网
+    - name: 吾爱破解
+      avatar: /imgs/links/52pojie.svg
+      link: https://www.52pojie.cn/
+      desc: 资源论坛
+    - name: 网盘资源
+      avatar: /imgs/links/ziyuan.svg
+      link: https://ziyuan.iters.cn/
+      desc: 资源中转站
+    - name: 微博
+      avatar: /imgs/links/sinaweibo.svg
+      link: https://weibo.com/
+      desc: 微博
+    - name: 贴吧
+      avatar: /imgs/links/baidu.svg
+      link: https://tieba.baidu.com/
+      desc: 百度贴吧
+    - name: NGA论坛
+      avatar: /imgs/links/nga.svg
+      link: https://ngabbs.com/
+      desc: NGA玩家社区
+    - name: Reddit
+      avatar: /imgs/links/reddit.svg
+      link: https://www.reddit.com/
+      desc: 国外的贴吧
+    - name: InfoQ
+      avatar: /imgs/links/infoq.svg
+      link: https://www.infoq.cn/
+      desc: 看下同行都在做啥
+    - name: Kookapp
+      avatar: /imgs/links/kookapp.svg
+      link: https://www.kookapp.cn/app/
+      desc: 在线聊天室，类似discord
+    - name: Quora
+      avatar: /imgs/links/quora.svg
+      link: https://www.quora.com/
+      desc: 国外的知乎
+- FLinksTitle: 个人社交/消息存储
+  FLinksList:
+    - name: 印象笔记
+      avatar: /imgs/links/yinxiang.svg
+      link: https://app.yinxiang.com/Login.action
+      desc: 一款胡乱收费的好用云笔记
+    - name: 百度网盘
+      avatar: /imgs/links/baiduwangpan.svg
+      link: https://pan.baidu.com/login
+      desc: 保存10个T学习资源的工具
+    - name: 公众号
+      avatar: /imgs/links/wechat.svg
+      link: https://mp.weixin.qq.com/cgi-bin/home
+      desc: 关注什么的，真的会有人点吗
+    - name: QQ 邮箱
+      avatar: /imgs/links/qqmail.svg
+      link: http://mail.qq.com/
+      desc: 它就是一个邮箱
+    - name: Google 邮箱
+      avatar: /imgs/links/gmail.svg
+      link: https://mail.google.com/mail/u/0/
+      desc: 它也是一个邮箱
+    - name: 腾讯文档
+      avatar: /imgs/links/tengxundocs.svg
+      link: https://docs.qq.com/desktop/mydoc/folder/BWKpOvqsbrAc?u=ff4d6815864c4523a2a5ae0ceef15ddc
+      desc: 它就是一个文档
+    - name: 飞书文档
+      avatar: /imgs/links/feishu.svg
+      link: https://esouqpttmy.feishu.cn/drive/home/
+      desc: 它也是一个文档
+    - name: 石墨文档
+      avatar: /imgs/links/shimo.svg
+      link: https://shimo.im/recent
+      desc: 它一样是一个文档
+    - name: ProcessOn
+      avatar: /imgs/links/processon.svg
+      link: https://www.processon.com/login
+      desc: 可以在线画流程图的网站
+    - name: 腾讯云
+      avatar: /imgs/links/tengxunyun.svg
+      link: https://cloud.tencent.com/login
+      desc: 腾讯云的管理控制台
+    - name: 阿里云
+      avatar: /imgs/links/aliyun.svg
+      link: https://account.aliyun.com/login/login.htm
+      desc: 阿里云的管理控制台
+    - name: 网易云音乐
+      avatar: /imgs/links/wangyiyun.svg
+      link: https://music.163.com/
+      desc: 网易云音乐网页版
+- FLinksTitle: 个人社交/数据中心
+  FLinksList:
+    - name: Google Trends
+      avatar: /imgs/links/gugequshi.svg
+      link: https://trends.google.com/trends/explore?geo=CN&hl=zh-CN
+      desc: 查看Google搜索趋势
+    - name: Google Analytics
+      avatar: /imgs/links/googleanalytics.svg
+      link: https://analytics.google.com/analytics/web/?authuser=1#/p276223412/reports/reportinghub
+      desc: 更多地了解您的用户和网站的互动
+    - name: Google Search Console
+      avatar: /imgs/links/googlesearchconsole.svg
+      link: https://search.google.com/search-console?resource_id=https%3A%2F%2Fnbchen.com%2F
+      desc: 监控网站的总体性能和搜索引擎结果
+    - name: 百度统计
+      avatar: /imgs/links/baidutongji.svg
+      link: https://tongji.baidu.com/main/homepage/10000423138/homepage/index
+      desc: 更符合国内站点
+    - name: similarweb
+      avatar: /imgs/links/similarweb.svg
+      link: https://www.similarweb.com/zh/top-websites/
+      desc: 热门网站排行
+- FLinksTitle: 个人社交/图片链路
+  FLinksList:
+    - name: Wallhaven
+      avatar: /imgs/links/wallhaven.svg
+      link: https://wallhaven.cc/
+      desc: 一款可以给博文加分的壁纸网站
+    - name: Pixiv
+      avatar: /imgs/links/pixiv.svg
+      link: https://www.pixiv.net/
+      desc: 是的，它也叫P站
+    - name: Iloveimg
+      avatar: /imgs/links/iloveimg.svg
+      link: https://www.iloveimg.com/zh-cn/compress-image/compress-jpg
+      desc: 图片压缩
+    - name: SoJson
+      avatar: /imgs/links/sojson.svg
+      link: https://www.sojson.com/image/format.html
+      desc: 转更小的webp图片格式
+    - name: Emojiall
+      avatar: /imgs/links/emojiall.svg
+      link: https://www.emojiall.com/zh-hans
+      desc: Emoji表情什么的，都有啊
+    - name: Shields
+      avatar: /imgs/links/shieldsdotio.svg
+      link: https://shields.io/
+      desc: shields徽章，逼格满满
+    - name: FontAwesome
+      avatar: /imgs/links/fontawesome.svg
+      link: https://fontawesome.com/search?o=r&m=free&c=money
+      desc: FontAwesome图标
+    - name: SimpleIcons
+      avatar: /imgs/links/simpleicons.svg
+      link: https://simpleicons.org/?q=baidu
+      desc: 站点svg图片
+    - name: iconfont
+      avatar: /imgs/links/Iconfont.svg
+      link: https://www.iconfont.cn/
+      desc: 阿里云图标库
+    - name: imagetostl
+      avatar: /imgs/links/imagetostl.svg
+      link: https://imagetostl.com/cn
+      desc: 一站式图片转换
+    - name: CDKM
+      avatar: /imgs/links/cdkm.svg
+      link: https://cdkm.com/cn/ico-to-svg
+      desc: ico转svg
+    - name: baimiaoapp
+      avatar: /imgs/links/baimiaoapp.svg
+      link: https://web.baimiaoapp.com/
+      desc: 图片扫描转文字
+    - name: excalidraw
+      avatar: /imgs/links/excalidraw.svg
+      link: https://excalidraw.com/
+      desc: 手绘流程图
+
+- FLinksTitle: 个人社交/文字链路
+  FLinksList:
+    - name: 无名图书
+      avatar: /imgs/links/book123.svg
+      link: https://www.book123.info/
+      desc: 有很多书可以下载
+    - name: Zlibrary
+      avatar: /imgs/links/zlibrary.svg
+      link: https://find.looks.wang/
+      desc: 听说是最丰富的免费书库
+    - name: 码农书籍网
+      avatar: /imgs/links/manongbook.svg
+      link: https://www.manongbook.com/
+      desc: 搞技术的电子书
+    - name: 书栈网
+      avatar: /imgs/links/bookstack.svg
+      link: https://www.bookstack.cn/
+      desc: 搞技术的技术文档
+    - name: 资源帝
+      avatar: /imgs/links/ziyuandi.svg
+      link: http://shu.ziyuandi.cn/
+      desc: 套娃的电子书导航网站
+- FLinksTitle: 个人社交/影视链路
+  FLinksList:
+    - name: YouTube
+      avatar: /imgs/links/youtube.svg
+      link: https://www.youtube.com/@playgroundai
+      desc: 全世界的视频网站
+    - name: NT动漫
+      avatar: /imgs/links/ntdm8.svg
+      link: http://www.ntdm8.com/
+      desc: 不好描述，总之就是二次元
+    - name: 4kvm
+      avatar: /imgs/links/4k.svg
+      link: https://www.4kvm.net/
+      desc: 是的，我不想再付费一个月只看一次了
+
+- FLinksTitle: AI精选工具/必备工具
+  FLinksList:
+    - name: Discord
+      avatar: /imgs/links/discord.svg
+      link: https://discord.com/channels/@me
+      desc: 聊天室接入MJ和chatgpt机器人
+    - name: SmsActivate
+      avatar: /imgs/links/default.webp
+      link: https://sms-activate.org/
+      desc: 比另一个接码平台靠谱的接码平台
+- FLinksTitle: AI精选工具/绘图精选
+  FLinksList:
+    - name: midjourney
+      avatar: /imgs/links/midjourney.svg
+      link: https://www.midjourney.com/app/
+      desc: 强大就完事了
+    - name: Civitai
+      avatar: /imgs/links/default.webp
+      link: https://civitai.com/
+      desc: c站，可以找到训练优秀的模型
+    - name: Stable Diffussion法师解析
+      avatar: /imgs/links/default.webp
+      link: https://spell.novelai.dev/
+      desc: 秋叶的模型检测工具
+    - name: 炼丹阁
+      avatar: /imgs/links/default.webp
+      link: https://www.liandange.com/
+      desc: 可以直接看到图片的prompt和模型
+    - name: Prompt Hunt
+      avatar: /imgs/links/default.webp
+      link: https://www.prompthunt.com/explore
+      desc: 可以淘一些漂亮图片的prompt
+    - name: MJPrompt Tool
+      avatar: /imgs/links/default.webp
+      link: https://prompt.noonshot.com/
+      desc: 在线调试prompt不同的风格样式
+    - name: promptomania
+      avatar: /imgs/links/default.webp
+      link: https://promptomania.com/prompt-builder/
+      desc: prompt在线构建器
+    - name: 文心一格
+      avatar: /imgs/links/default.webp
+      link: https://yige.baidu.com/
+      desc: 百度的在线绘画平台
+    - name: 无界AI
+      avatar: /imgs/links/default.webp
+      link: https://www.wujieai.com/
+      desc: 国产绘画平台
+    - name: Draft
+      avatar: /imgs/links/default.webp
+      link: https://draft.art/home
+      desc: 让每一刻的灵感都不被辜负
+- FLinksTitle: AI精选工具/有趣项目
+  FLinksList:
+    - name: 机械佛
+      avatar: /imgs/links/default.webp
+      link: https://hotoke.ai/
+      desc: 赛博朋克版的机械佛
+    - name: Github Cpilot
+      avatar: /imgs/links/default.webp
+      link: https://github.com/features/copilot
+      desc: AI编程
+    - name: ZelinAI
+      avatar: /imgs/links/default.webp
+      link: https://www.zelinai.com/
+      desc: 在线构建AI应用
+
+- FLinksTitle: AI其他工具/AI导航网站
+  FLinksList:
+    - name: futurepedia
+      avatar: /imgs/links/default.webp
+      link: https://www.futurepedia.io/
+      desc: futurepedia
+    - name: ai-bot
+      avatar: /imgs/links/default.webp
+      link: https://ai-bot.cn/
+      desc: ai-bot
+    - name: ainavpro
+      avatar: /imgs/links/default.webp
+      link: https://www.ainavpro.com/
+      desc: ainavpro
+    - name: 17yongai
+      avatar: /imgs/links/default.webp
+      link: https://17yongai.com/
+      desc: 17yongai
+    - name: ainav
+      avatar: /imgs/links/default.webp
+      link: https://www.ainav.cn/
+      desc: ainav
+    - name: aicangshu
+      avatar: /imgs/links/default.webp
+      link: https://www.aicangshu.net/
+      desc: aicangshu
+    - name: naviai
+      avatar: /imgs/links/default.webp
+      link: https://www.naviai.cn/
+      desc: naviai
+    - name: ai101
+      avatar: /imgs/links/default.webp
+      link: https://www.ai101.cn/
+      desc: ai101
+    - name: ai-tools
+      avatar: /imgs/links/default.webp
+      link: https://ai-tools.plus/
+      desc: ai-tools
+    - name: aidaohang
+      avatar: /imgs/links/default.webp
+      link: https://wz.aidaohang.com.cn/
+      desc: aidaohang
+- FLinksTitle: AI其他工具/AI对话工具
+  FLinksList:
+    - name: New Bing
+      avatar: /imgs/links/microsoftbing.svg
+      link: https://www.bing.com/new?toWww=1&redig=8E92587ADEDE4E5FAD904E6699993BDC
+      desc: 微软的chatgpt对话平台
+    - name: 文心AI
+      avatar: /imgs/links/default.webp
+      link: https://cat2.imiku.me/
+      desc: 文心AI
+    - name: givemeprompt
+      avatar: /imgs/links/default.webp
+      link: https://chat2.givemeprompt.com/
+      desc: 在线提问的prompt网站
+    - name: ddiu
+      avatar: /imgs/links/default.webp
+      link: https://chatgpt.ddiu.me/
+      desc: ChatGPT API Demo
+    - name: 51buygpt
+      avatar: /imgs/links/default.webp
+      link: https://chat.51buygpt.com/
+      desc: 51buygpt
+- FLinksTitle: AI其他工具/AI编程工具
+  FLinksList:
+    - name: codesquire
+      avatar: /imgs/links/default.webp
+      link: https://codesquire.ai/
+      desc: 想法转代码
+    - name: buildt
+      avatar: /imgs/links/default.webp
+      link: https://www.buildt.ai/
+      desc: 帮开发搜索和理解大型代码库
+    - name: whatthediff
+      avatar: /imgs/links/default.webp
+      link: https://whatthediff.ai/
+      desc: 编写更好的拉取请求描述
+    - name: mutable
+      avatar: /imgs/links/default.webp
+      link: https://mutable.ai/
+      desc: AI转换为生产质量代码
+    - name: useblackbox
+      avatar: /imgs/links/default.webp
+      link: https://www.useblackbox.io/
+      desc: 根据想法生成代码
+    - name: askcodi
+      avatar: /imgs/links/default.webp
+      link: https://www.askcodi.com/
+      desc: 节省开发无用任务
+    - name: cheatlayer
+      avatar: /imgs/links/default.webp
+      link: https://cheatlayer.com/
+      desc: 业务自动化
+    - name: tabnine
+      avatar: /imgs/links/default.webp
+      link: https://www.tabnine.com/
+      desc: AI助手
+- FLinksTitle: AI其他工具/AI写作工具
+  FLinksList:
+    - name: hypotenuse
+      avatar: /imgs/links/default.webp
+      link: https://zh.hypotenuse.ai/
+      desc: 生成文章
+    - name: daydrm
+      avatar: /imgs/links/default.webp
+      link: https://www.daydrm.ai/
+      desc: 生成创意
+    - name: TTS
+      avatar: /imgs/links/default.webp
+      link: https://www.text-to-speech.cn/
+      desc: 文字转语音
+    - name: MindShow
+      avatar: /imgs/links/default.webp
+      link: https://www.mindshow.fun/
+      desc: 文字转PPT
+    - name: 一帧
+      avatar: /imgs/links/default.webp
+      link: https://yizhentv.com/
+      desc: 图文转视频
+    - name: ChatPDF
+      avatar: /imgs/links/default.webp
+      link: https://www.chatpdf.com/
+      desc: 阅读解析PDF
+    - name: ChatDoc
+      avatar: /imgs/links/default.webp
+      link: https://chatdoc.com/
+      desc: 阅读解析word
+    - name: BookAI
+      avatar: /imgs/links/default.webp
+      link: https://www.bookai.chat/
+      desc: 阅读书籍
+    - name: ReadWise
+      avatar: /imgs/links/default.webp
+      link: https://readwise.io/
+      desc: 阅读电子书
+    - name: Xmind Copilot
+      avatar: /imgs/links/default.webp
+      link: https://xmind.ai/cn
+      desc: 思维导图生成文章
+- FLinksTitle: AI其他工具/AI音频工具
+  FLinksList:
+    - name: altered
+      avatar: /imgs/links/default.webp
+      link: https://www.altered.ai/
+      desc: 语音转文字
+    - name: podcastle
+      avatar: /imgs/links/default.webp
+      link: https://podcastle.ai/
+      desc: 语音转文字
+    - name: cleanvoice
+      avatar: /imgs/links/default.webp
+      link: https://cleanvoice.ai/
+      desc: 语音消噪
+    - name: voicemod
+      avatar: /imgs/links/default.webp
+      link: https://www.voicemod.net/zh/
+      desc: 转换声音
+- FLinksTitle: AI其他工具/AI视频工具
+  FLinksList:
+    - name: veed
+      avatar: /imgs/links/default.webp
+      link: https://www.veed.io/
+      desc: 视频生成字幕
+    - name: deepmotion
+      avatar: /imgs/links/default.webp
+      link: https://www.deepmotion.com/
+      desc: AI生成3D动画
+- FLinksTitle: AI其他工具/AI3D工具
+  FLinksList:
+    - name: masterpiecestudio
+      avatar: /imgs/links/default.webp
+      link: https://masterpiecestudio.com/
+      desc: masterpiecestudio
+    - name: g3d
+      avatar: /imgs/links/default.webp
+      link: https://g3d.ai/
+      desc: g3d
+    - name: ponzu
+      avatar: /imgs/links/default.webp
+      link: https://www.ponzu.gg/
+      desc: ponzu
+    - name: prometheanai
+      avatar: /imgs/links/default.webp
+      link: https://www.prometheanai.com/
+      desc: prometheanai
+    - name: leonardo
+      avatar: /imgs/links/default.webp
+      link: https://leonardo.ai/
+      desc: leonardo
+    - name: mirageml
+      avatar: /imgs/links/default.webp
+      link: https://mirageml.com/
+      desc: mirageml
+    - name: kaedim3d
+      avatar: /imgs/links/default.webp
+      link: https://www.kaedim3d.com/
+      desc: AI生成3D模型
+    - name: D-ID
+      avatar: /imgs/links/default.webp
+      link: https://www.d-id.com/
+      desc: 虚拟人物
+    - name: heygen
+      avatar: /imgs/links/default.webp
+      link: https://www.heygen.com/
+      desc: 数字人
+- FLinksTitle: AI其他工具/AI头像工具
+  FLinksList:
+    - name: dreampic
+      avatar: /imgs/links/default.webp
+      link: https://dreampic.ai/
+      desc: 根据照片生成不同风格的头像
+    - name: hairgen
+      avatar: /imgs/links/default.webp
+      link: https://www.hairgen.ai/
+      desc: 根据照片生成不同风格的头像
+    - name: avatarify
+      avatar: /imgs/links/default.webp
+      link: https://avatarify.art/
+      desc: 数字化身
+    - name: pictodream
+      avatar: /imgs/links/default.webp
+      link: https://pictodream.com/
+      desc: 根据照片生成不同风格的头像
+    - name: arti
+      avatar: /imgs/links/default.webp
+      link: https://www.arti.pics/
+      desc: 根据照片生成不同风格的头像
+    - name: profilepicture
+      avatar: /imgs/links/default.webp
+      link: https://www.profilepicture.ai/
+      desc: 根据照片生成不同风格的头像
+    - name: inworld
+      avatar: /imgs/links/default.webp
+      link: https://www.inworld.ai/
+      desc: 根据照片生成不同风格的头像
+    - name: photoai
+      avatar: /imgs/links/default.webp
+      link: https://photoai.com/ai-avatars?ref=avatarai
+      desc: 根据照片生成不同风格的头像
+- FLinksTitle: AI其他工具/AI艺术创作
+  FLinksList:
+    - name: dreamup
+      avatar: /imgs/links/default.webp
+      link: https://www.dreamup.com/
+      desc: 根据指令生成艺术作品
+    - name: nightcafe
+      avatar: /imgs/links/default.webp
+      link: https://creator.nightcafe.studio/
+      desc: 根据指令生成艺术作品
+    - name: artbreeder
+      avatar: /imgs/links/default.webp
+      link: https://www.artbreeder.com/
+      desc: 根据指令生成艺术作品
+    - name: dream
+      avatar: /imgs/links/default.webp
+      link: https://dream.ai/
+      desc: 根据指令生成艺术作品
+    - name: neural
+      avatar: /imgs/links/default.webp
+      link: https://neural.love/
+      desc: 根据指令生成艺术作品
+    - name: dream
+      avatar: /imgs/links/default.webp
+      link: https://dream.ai/
+      desc: 根据指令生成艺术作品
+    - name: mage
+      avatar: /imgs/links/default.webp
+      link: https://www.mage.space/
+      desc: 根据指令生成艺术作品
+    - name: artroom
+      avatar: /imgs/links/default.webp
+      link: https://artroom.ai/
+      desc: 根据指令生成艺术作品
+    - name: dreamlike
+      avatar: /imgs/links/default.webp
+      link: https://dreamlike.art/
+      desc: 根据指令生成艺术作品
+    - name: diffusionbee
+      avatar: /imgs/links/default.webp
+      link: https://diffusionbee.com/
+      desc: 根据指令生成艺术作品
+    - name: civitai
+      avatar: /imgs/links/default.webp
+      link: https://civitai.com/
+      desc: 可以找到一些不错的画和模型
+    - name: lexica
+      avatar: /imgs/links/default.webp
+      link: https://lexica.art/
+      desc: 根据指令生成艺术作品
+    - name: aipicasso
+      avatar: /imgs/links/default.webp
+      link: https://www.aipicasso.app/
+      desc: 根据指令生成艺术作品
+    - name: arthub
+      avatar: /imgs/links/default.webp
+      link: https://arthub.ai/
+      desc: 根据指令生成艺术作品
+    - name: superprompts
+      avatar: /imgs/links/default.webp
+      link: https://superprompts.com/
+      desc: 根据指令生成艺术作品
+    - name: picso
+      avatar: /imgs/links/default.webp
+      link: https://www.picso.ai/
+      desc: 根据指令生成艺术作品
+    - name: daftart
+      avatar: /imgs/links/default.webp
+      link: https://www.daftart.ai/
+      desc: 根据指令生成艺术作品
+    - name: clipdrop
+      avatar: /imgs/links/default.webp
+      link: https://clipdrop.co/
+      desc: 根据指令生成艺术作品
+    - name: openart
+      avatar: /imgs/links/default.webp
+      link: https://openart.ai/
+      desc: 根据指令生成艺术作品
+    - name: aigallery
+      avatar: /imgs/links/default.webp
+      link: https://www.aigallery.top/tool
+      desc: 根据指令生成艺术作品
+    - name: krea
+      avatar: /imgs/links/default.webp
+      link: https://www.krea.ai/
+      desc: 根据指令生成艺术作品
+    - name: imglink
+      avatar: /imgs/links/default.webp
+      link: https://asbot.imglink.ink/
+      desc: 根据指令生成艺术作品
+    - name: meisterdrucke
+      avatar: /imgs/links/default.webp
+      link: https://www.meisterdrucke.cn/list-of-artists.html
+      desc: 根据指令生成艺术作品
+    - name: frozenland
+      avatar: /imgs/links/default.webp
+      link: https://frozenland.cc/teleprompter.html
+      desc: AI绘画灵感
+    - name: midjourney pic
+      avatar: /imgs/links/default.webp
+      link: https://www.midjourney.com/showcase/recent/
+      desc: MJ官网别人生成的图片
+
+- FLinksTitle: AI其他工具/AI模型网站
+  FLinksList:
+    - name: huggingface
+      avatar: /imgs/links/default.webp
+      link: https://huggingface.co/
+      desc: 可以查找SD模型
+

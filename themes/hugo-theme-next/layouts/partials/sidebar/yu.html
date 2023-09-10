@@ -1,0 +1,82 @@
+
+
+<!-- <div class="mydefined animated" itemprop="custom">
+  <span>支持自定义CSS和Sidebar布局啦💄💄💄</span>
+</div> -->
+
+<!-- <p>我本是槐花院落闲散的人</p>
+<p>满襟酒气</p> -->
+<div class="bounce">
+	<span class="letter">小</span>
+	<span class="letter">池</span>
+	<span class="letter">塘</span>
+	<span class="letter">边</span>
+	<span class="letter">跌</span>
+	<span class="letter">坐</span>
+  <span class="letter">看</span>
+  <span class="letter">鱼</span>
+</div>
+<!-- <p>眉挑烟火过一生</p> -->
+<style>
+.bounce {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: pink;
+  height: 100%;
+  font: normal bold 1.5rem "Product Sans", sans-serif;
+  white-space: nowrap;
+}
+
+.letter {
+  animation: bounce 0.75s cubic-bezier(0.05, 0, 0.2, 1) infinite alternate;
+  display: inline-block;
+  transform: translate3d(0, 0, 0);
+  margin-top: 0.5em;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 0.05em;
+  font: normal 500 1rem 'Varela Round', sans-serif;
+}
+.letter:nth-child(1) {
+  animation-delay: 0s;
+}
+.letter:nth-child(2) {
+  animation-delay: 0.1423333333s;
+  color:#FF0000;
+}
+.letter:nth-child(3) {
+  animation-delay: 0.2843333333s;
+  color:#FF7F00;
+}
+.letter:nth-child(4) {
+  animation-delay: 0.4263333333s;
+  color:#FFFF00;
+}
+.letter:nth-child(5) {
+  animation-delay: 0.5683333333s;
+  color:#00FF00;
+}
+.letter:nth-child(6) {
+  animation-delay: 0.7103333333s;
+  color:#00FFFF;
+}
+.letter:nth-child(7) {
+  animation-delay: 0.8523333333s;
+  color:#0000FF;
+}
+.letter:nth-child(8) {
+  animation-delay: 0.9993333333s;
+  color:#8B00FF;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate3d(0, 0, 0);
+    text-shadow: rgba(255, 255, 255, 0.4) 0 0 0.05em;
+  }
+  100% {
+    transform: translate3d(0, -1em, 0);
+    text-shadow: rgba(255, 255, 255, 0.4) 0 1em 0.35em;
+  }
+}
+</style>

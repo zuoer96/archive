@@ -1,0 +1,515 @@
+/* 基础变量 */
+:root {
+  /* 文字的亚瑟 */
+  --text-color: #40464f;
+  /* 主色调 */
+  --primary-color: #4870ac;
+  /* 背景深色，文字白色 */
+  --bg-color: #ffffff;
+
+  /* ul li小点的颜色 */
+  --marker-color: #a2b6d4;
+  /* h2的背景高亮颜色 */
+  --highlight-color: #ffffb5c2;
+  /* --highlight-color: #7d8a9f7d; */
+  /* h2的代码块样式 */
+  --header-span-color: var(--primary-color);
+  /* h2 Span Color */
+  --block-bg-color: #f6f8fa;
+
+  /* Overwrite of Typora Base Color */
+  --control-text-hover-color: #a2b6d4;
+  --rawblock-edit-panel-bd: var(--block-bg-color);
+  --item-hover-bg-color: rgb(246 248 250);
+  --active-file-bg-color: var(--block-bg-color);
+}
+
+/* 字体 */
+@font-face {
+  font-family: "Cantarell";
+  src: url("../fonts/Cantarell-VF-fixed.otf");
+}
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../fonts/JetBrainsMono-Regular.ttf");
+}
+
+/* @font-face {
+  font-family: "SourceHanSerifCN";
+  src: url("../fonts/SourceHanSerifCN-Medium.otf");
+}
+
+@font-face {
+  font-family: "SourceHanSerifCN";
+  src: url("../fonts/SourceHanSerifCN-Bold.otf");
+  font-weight: bold;
+} */
+
+/* 基础样式 */
+
+::selection {
+  color: var(--bg-color);
+  background-color: var(--primary-color);
+}
+
+article {
+  /* 正文宽度 */
+  max-width: 950px;
+  /* font-size: 1.1rem; */
+  color: var(--text-color);
+  line-height: 1.6;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+  word-break: break-word;
+  word-wrap: break-word;
+  text-align: justify;
+
+  font-family: "Cantarell", "JetBrainsMono";
+  /* "SourceHanSerifCN", */
+  /* margin-bottom: 20rem; */
+}
+
+/* 加粗颜色 */
+article strong {
+  color: var(--primary-color);
+}
+
+/* 链接颜色 */
+article a {
+  color: var(--primary-color);
+}
+
+/* 标题和段落中 a链接的样式 */
+article p a,
+article h1 a,
+article h2 a,
+article h3 a,
+article h4 a,
+article h5 a,
+article h6 a {
+  text-decoration: none;
+  word-wrap: break-word;
+  border-bottom: 1px solid var(--primary-color);
+  margin: 2px;
+  font-weight: normal;
+}
+
+/* 
+ * 引用框里的文字设置
+ */
+.post-body + p,
+article blockquote p {
+  font-size: 1.1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin: 0;
+  line-height: 1.8rem;
+  color: var(--text-color);
+}
+
+/*
+ * h1-h6设置
+ */
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  /* font-family: "SourceHanSerifCN"; */
+  font-family: "Cantarell", "JetBrainsMono";
+  padding: 0px;
+  color: var(--primary-color);
+}
+
+/* h1 居中 */
+article h1 {
+  text-align: center;
+}
+/* h2的样式设置 */
+article h2 {
+  background-color: var(--header-span-color);
+  color: var(--bg-color);
+  padding: 1px 12.5px;
+  border-radius: 4px;
+  display: inline-block;
+}
+/* h2中的a链接样式 */
+article h2 a {
+  color: var(--bg-color);
+  border-bottom-color: var(--bg-color) !important;
+}
+/* h2中的加粗样式 */
+article h2 strong {
+  color: var(--bg-color);
+}
+/* h2中的代码样式 */
+article h2 code {
+  color: var(--bg-color);
+  background-color: var(--header-span-color);
+}
+
+@media print {
+  :root {
+    --text-color: rgb(0, 0, 0);
+  }
+}
+/* h1-h6字体大小设置 */
+article h1 {
+  font-size: 2rem;
+}
+article h2 {
+  font-size: 1.5rem;
+}
+article h3 {
+  font-size: 1.4rem;
+}
+article h4 {
+  font-size: 1.2rem;
+}
+article h5 {
+  font-size: 1.1rem;
+}
+article h6 {
+  font-size: 1.1rem;
+}
+/* h1-h6边距设置 */
+article h1 {
+  padding-top: 0.9rem;
+  margin-bottom: 2.3rem;
+}
+article h2 {
+  margin: 0.3em 0;
+}
+article h3 {
+  margin: 1em 0 1em;
+}
+article h4 {
+  margin: 0.8em 0 0.8em;
+}
+article h5 {
+  margin: 0.6em 0 0.6em;
+}
+article h6 {
+  margin: 0.4em 0 0.4em;
+}
+/* ul li 样式 */
+::marker {
+  font-weight: bold;
+  color: var(--marker-color);
+}
+article .post-body li {
+  margin: 0.4rem 0;
+}
+article .post-body li p {
+  margin: 0;
+}
+article .post-body ul,
+article .post-body ol {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+}
+article .post-body ul {
+  list-style-type: disc;
+}
+article .post-body em {
+  padding: 0 3px 0 0;
+}
+article .post-body ul ul {
+  list-style-type: square;
+}
+article .post-body ol {
+  list-style-type: decimal;
+}
+article .post-body li section {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.7rem;
+  text-align: justify;
+  color: var(--text-color);
+  font-weight: 500;
+}
+/* 引言样式 */
+article .post-body blockquote {
+  display: block;
+  font-size: 0.9em;
+  overflow: auto;
+  border-left: 3px solid var(--primary-color);
+  padding: 15px 30px 15px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: var(--block-bg-color);
+}
+
+/* 行内代码块 */
+article .post-body code {
+  color: var(--primary-color);
+  font-size: 94%;
+  font-weight: normal;
+  word-wrap: break-word;
+  padding: 0px 4px 0px;
+  border-radius: 3px;
+  margin: 2px;
+  background-color: var(--block-bg-color);
+  font-family: "JetBrainsMono";
+  word-break: break-all;
+}
+
+/* 修复BUG */
+article .post-body .highlight code {
+  color: var(--primary-color);
+  font-size: 94%;
+  font-weight: normal;
+  word-wrap: break-word;
+  padding: 0px 4px 0px;
+  border-radius: 3px;
+  margin: 2px;
+  /* 代码块code区域的颜色，会有2个白色竖线 */
+  background-color: inherit;
+  font-family: "JetBrainsMono";
+  word-break: break-all;
+}
+
+
+/* 图片 */
+article .post-body img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+article .post-body p > .md-image:only-child:not(.md-img-error) img,
+article .post-body p > img:only-child {
+  /* filter: drop-shadow(#d2dff4 0px 0px 2px); */
+  /* border-radius: 1rem; */
+  border-radius: 4px;
+  /* display: block; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+}
+/* 表格设置 */
+article .post-body table.md-table {
+  display: table;
+  text-align: justify;
+  overflow-x: auto;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  font-size: 1em;
+  margin: 0px 0px 20px;
+  width: 100%;
+}
+
+article .post-body tbody {
+  border: 0;
+}
+
+article .post-body table tr {
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+article .post-body table tr th,
+article .post-body table tr td {
+  font-size: 1rem;
+  border: 1px solid #d9dfe4;
+  padding: 5px 10px;
+  text-align: justify;
+}
+
+article .post-body table tr th {
+  /* font-family: SourceHanSerifCN; */
+  font-family: "Cantarell", "JetBrainsMono";
+  text-align: center;
+  min-width: 10rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+article .post-body table tr td:hover,
+article .post-body table tr th:hover {
+  background-color: var(--block-bg-color);
+}
+
+article .post-body table td {
+  min-width: 32px;
+}
+
+/* 分割线 */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #eef2f5;
+  border-radius: 2px;
+}
+
+/* 勾选框 */
+article .post-body input[type="checkbox"] {
+  width: 0;
+}
+/* checkbox 位置样式 */
+article .post-body li input::before {
+  content: "";
+  display: inline-block;
+  width: 1.0125rem;
+  height: 1.0125rem;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid var(--marker-color);
+  border-radius: 0.2rem;
+  background-color: #fdfdfd;
+  margin-left: -1.3rem;
+  margin-right: 0.1rem;
+  margin-top: -0.8rem;
+}
+
+article .post-body li input:checked::before {
+  content: "✓";
+  font-weight: bold;
+  -webkit-text-stroke: 1px var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  font-size: 0.75rem;
+  line-height: 0.8rem;
+}
+
+article .post-body blockquote li input::before {
+  margin-top: 0.2rem;
+}
+
+/* 侧边栏的样式 */
+.sidebar {
+  /* font-family: "Cantarell", "SourceHanSerifCN"; */
+  font-family: "Cantarell", "JetBrainsMono";
+  /* height: 100%; */
+  /* color: var(--text-color); */
+  /* font-size: 0.92rem; */
+  /* background-color: var(--bg-color); */
+}
+
+/* 高亮代码块 */
+.highlight {
+  /* 代码块3个点的栏的位置的颜色 */
+  /* background-color: #fff; */
+  /* background-color: #7d8a9f7d;  */
+  /* border-radius: 5px; */
+  box-shadow: none;
+  padding-top: 30px;
+  /* background: var(--highlight-background); */
+  /* margin-bottom: 13px; */
+}
+.highlight pre {
+  font-family: "JetBrainsMono";
+  color: var(--primary-color);
+  /* 代码块体的背景颜色 */
+  /* background-color: #f6f8fa !important; */
+  /* padding: 1.5rem; */
+  /* margin: -37px 0rem 3.8rem; */
+  padding: 0 0 0 1.5rem;
+  margin: 0;
+  /* border-radius: 1rem; */
+  filter: drop-shadow(#d2dff4 0px 3px 3px);
+  /* border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color); */
+  /* line-height: 1.1rem; */
+}
+
+.highlight pre {
+  border-radius: 0.8rem;
+}
+/* 复制按钮 */
+.highlight pre .copy-btn {
+  background-color: var(--primary-color);
+}
+
+/* 自定义侧边栏的样式 */
+.mydefined {
+  font-size: 0.65em;
+  color: #ed6c24;
+}
+
+/* 自定义底部的样式 */
+.custom-footer {
+  /* width: 800px; */
+  /* height: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* 调整元素之间的间隔大小 */
+}
+.custom-footer a {
+  display: inline-block;
+  /* 可以根据需要调整元素之间的间距 */
+  /* margin-right: 10px; */
+  /* 可以根据需要设置背景颜色 */
+  /* background-color: #ddd;  */
+  /* 可以根据需要设置内边距 */
+  /* padding: 5px 10px;  */
+  /* 去除下划线 */
+  text-decoration: none;
+  /* 去除下边框 */
+  border-bottom: none;
+  /* 居中显示 */
+  /* margin: 20px auto; */
+}
+
+/* 自定义头部的样式 */
+.custom-head5 {
+  font-size: 1.2em;
+  color: #ed6c24;
+  font-weight: bold;
+}
+
+/* 侧边栏头像移除边框 */
+.site-author-image {
+  border: none;
+}
+
+/* 隐藏版权 */
+.copyright {
+  display: none;
+}
+
+/* 代码块 */
+.highlight pre {
+  border-radius: 5px;
+}
+
+/* 隐藏第一篇文章的阅读按钮 */
+/* bug：如果第一篇文章不是 是和否选项的文章，也会隐藏阅读按钮，待修复 */
+.main-inner .post-block:first-child > article > .post-footer {
+  display: none;
+}
+/* 指定卡片的样式 */
+.wenxin_card {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wenxin_title {
+  text-align: center;
+}
+.wenxin_left,
+.wenxin_right {
+  padding: 5px 20px;
+}
+.wenxin_left:hover,
+.wenxin_right:hover {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 隐藏主题切换 */
+#toggle-theme {
+  display: none !important;
+}
+
+/* 图片变小 */
+.flinks-block .flinks-list-items .flinks-list-item .flinks-item-icon img {
+  object-fit: scale-down;
+}
